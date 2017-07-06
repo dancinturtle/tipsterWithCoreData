@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // add outlets for all targets
 
+    @IBAction func calculatorButtonWasPressed(_ sender: UIButton) {
+        print("button was pressed")
+    }
+    
+    // add actions for clear and decimal
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
