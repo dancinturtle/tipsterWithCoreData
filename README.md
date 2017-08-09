@@ -17,9 +17,11 @@ If you did attend the previous WWC meetups for iOS at Coding Dojo, you may eithe
 *If you would like to continue developing your own code, make sure you have Core Data in our project.* If you started your project with Core Data you already have it!
 
 *How do I know if I already have Core Data in my project?*
+
 To know whether or not you already have Core Data in your project, see if you have a file on the same level as your storyboard with the .xcdatamodeld extension. If you have this file, you already have Core Data and no action is necessary!
 
 *How do I add Core Data if I don't have it in my project?*
+
 If you do not have a file with the .xcdatamodeld extension, please follow these steps very carefully:
 
 1.  Open your AppDelegate.swift file and add the following statement at the top:
