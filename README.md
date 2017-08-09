@@ -80,3 +80,4 @@ At this point, you should have Core Data ready to go! If you have any trouble re
 ```swift
 let container = NSPersistentContainer(name: "Tipster")
 ```
+[This YouTube video will walk you through adding Core Data to your project](https://youtu.be/4nhAHj0lO7o)
