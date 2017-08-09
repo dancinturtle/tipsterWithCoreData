@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95F4D1A71F3B93B10022027B /* Tipster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D1A51F3B93B10022027B /* Tipster.xcdatamodeld */; };
 		D62A09791F0ED9FE0058E7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A09781F0ED9FE0058E7F7 /* AppDelegate.swift */; };
 		D62A097B1F0ED9FE0058E7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A097A1F0ED9FE0058E7F7 /* ViewController.swift */; };
 		D62A097E1F0ED9FE0058E7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62A097C1F0ED9FE0058E7F7 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95F4D1A61F3B93B10022027B /* Tipster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tipster.xcdatamodel; sourceTree = "<group>"; };
 		D62A09751F0ED9FE0058E7F7 /* tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62A09781F0ED9FE0058E7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62A097A1F0ED9FE0058E7F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D62A09781F0ED9FE0058E7F7 /* AppDelegate.swift */,
+				95F4D1A51F3B93B10022027B /* Tipster.xcdatamodeld */,
 				D62A097A1F0ED9FE0058E7F7 /* ViewController.swift */,
 				D62A097C1F0ED9FE0058E7F7 /* Main.storyboard */,
 				D62A097F1F0ED9FE0058E7F7 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					D62A09741F0ED9FE0058E7F7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LZJ74AK2BB;
 						ProvisioningStyle = Automatic;
 					};
 					D62A09881F0ED9FF0058E7F7 = {
@@ -201,6 +205,7 @@
 			files = (
 				D62A097B1F0ED9FE0058E7F7 /* ViewController.swift in Sources */,
 				D62A09791F0ED9FE0058E7F7 /* AppDelegate.swift in Sources */,
+				95F4D1A71F3B93B10022027B /* Tipster.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZJ74AK2BB;
 				INFOPLIST_FILE = tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BeeNana.tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = "BeeNana.tipster-Anna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -353,9 +359,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZJ74AK2BB;
 				INFOPLIST_FILE = tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BeeNana.tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = "BeeNana.tipster-Anna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -408,6 +415,7 @@
 				D62A09941F0ED9FF0058E7F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D62A09951F0ED9FF0058E7F7 /* Build configuration list for PBXNativeTarget "tipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -416,8 +424,22 @@
 				D62A09971F0ED9FF0058E7F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95F4D1A51F3B93B10022027B /* Tipster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95F4D1A61F3B93B10022027B /* Tipster.xcdatamodel */,
+			);
+			currentVersion = 95F4D1A61F3B93B10022027B /* Tipster.xcdatamodel */;
+			path = Tipster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D62A096D1F0ED9FE0058E7F7 /* Project object */;
 }

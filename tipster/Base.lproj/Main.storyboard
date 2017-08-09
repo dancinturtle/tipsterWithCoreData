@@ -34,7 +34,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="i5Y-sG-c6g">
                                         <rect key="frame" x="0.0" y="0.0" width="323" height="48"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3J-F9-xEW">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3J-F9-xEW">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="7"/>
@@ -42,55 +42,79 @@
                                                     <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNc-XC-7Fz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJu-ou-Oj8">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJu-ou-Oj8">
                                                 <rect key="frame" x="146.5" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="8"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bh8-Pe-Plj"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1I5-PE-Ytn">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1I5-PE-Ytn">
                                                 <rect key="frame" x="293" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="9"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ct6-Ue-jLw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="ELX-Fc-LI3">
                                         <rect key="frame" x="0.0" y="138" width="323" height="48"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlm-Ld-9wE">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlm-Ld-9wE">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="4"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMn-Kg-Oid"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-1u-SLP">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-1u-SLP">
                                                 <rect key="frame" x="146.5" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="5"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vyD-GP-g8t"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-NA-Uky">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-NA-Uky">
                                                 <rect key="frame" x="293" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="6"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PFO-LJ-90l"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="QXb-ve-vcW">
                                         <rect key="frame" x="0.0" y="276" width="323" height="48"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-01-T8u">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-01-T8u">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="1"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aby-Z8-HnG"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihg-di-a3N">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihg-di-a3N">
                                                 <rect key="frame" x="146.5" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="2"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JMC-E3-bW4"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxb-q2-kpw">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxb-q2-kpw">
                                                 <rect key="frame" x="293" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="3"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdE-RN-yqd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -101,16 +125,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="c"/>
+                                                <connections>
+                                                    <action selector="clearButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDH-mJ-qbQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5p-jD-CMZ">
                                                 <rect key="frame" x="146.5" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="0"/>
+                                                <connections>
+                                                    <action selector="calculatorButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vm1-i7-ueT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ih-zm-3Zs">
                                                 <rect key="frame" x="293" y="0.0" width="30" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="."/>
+                                                <connections>
+                                                    <action selector="decimalButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nO-rm-XVQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -212,6 +245,16 @@
                             <constraint firstItem="bgf-1O-kYc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="xJW-FU-bft"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="billTotal" destination="bgf-1O-kYc" id="4jH-nz-Sf1"/>
+                        <outlet property="decimalButton" destination="7ih-zm-3Zs" id="lcR-xV-12S"/>
+                        <outlet property="fifteenPercentTip" destination="009-t6-ION" id="C2a-cD-tvu"/>
+                        <outlet property="fifteenPercentTotal" destination="rqc-OO-YOZ" id="eAq-2m-UBX"/>
+                        <outlet property="tenPercentTip" destination="6um-el-Ap4" id="hKN-03-Yeg"/>
+                        <outlet property="tenPercentTotal" destination="Jpn-yk-BqZ" id="QSh-fj-mU1"/>
+                        <outlet property="twentyPercentTip" destination="DOF-Ui-Nmi" id="Nix-r5-VZ9"/>
+                        <outlet property="twentyPercentTotal" destination="dyU-LB-HUy" id="pxf-GW-W0F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

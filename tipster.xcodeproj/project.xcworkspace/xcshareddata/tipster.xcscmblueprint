@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C01CD707A7D5FD63406D598DDD3FEF21E1EC73D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C01CD707A7D5FD63406D598DDD3FEF21E1EC73D5" : 9223372036854775807,
+    "4FBD55EA6FF99F2AFE5F9BA5395D7BF21B33B8B2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8EA431D3-5933-4F41-9512-CFF401218849",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C01CD707A7D5FD63406D598DDD3FEF21E1EC73D5" : "tipster\/",
+    "4FBD55EA6FF99F2AFE5F9BA5395D7BF21B33B8B2" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tipster",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tipster.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AnnaBNana\/git_demo_two.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FBD55EA6FF99F2AFE5F9BA5395D7BF21B33B8B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AnnaBNana\/tipster.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C01CD707A7D5FD63406D598DDD3FEF21E1EC73D5"
+    }
+  ]
+}
